@@ -1,1 +1,0 @@
-# New Design Coming Soon
