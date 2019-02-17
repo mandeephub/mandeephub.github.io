@@ -4,16 +4,33 @@
 }
 
 #blog_banner{
+	background-image: url("https://images.unsplash.com/photo-1504139969750-3244f9258fce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    background-size: cover;
     padding-top: 70px;
     background-position-y: 35%;
+    
+
 }
 
-.blog_box{
-	box-shadow: 0 0 43px #eee;
+.blog_banner_txt{
+	font-size: 80px;
+    color: #ffffff94;
+    font-weight: 900;
 }
 
 @media only screen and (max-width: 600px) {
-  .blog_box{
-	
+  
+#blog_banner{
+	background-image: url("https://images.unsplash.com/photo-1504139969750-3244f9258fce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    background-size: cover;
+    padding-top: 70px;
+    background-position-y: 35%;
+
 }
+.blog_banner_txt{
+	font-size: 40px;
+    color: #ffffff94;
+    font-weight: 900;
+}
+
 }
