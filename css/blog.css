@@ -8,8 +8,6 @@
     background-size: cover;
     padding-top: 70px;
     background-position-y: 35%;
-    
-
 }
 
 .blog_banner_txt{
@@ -17,6 +15,12 @@
     color: #ffffff94;
     font-weight: 900;
 }
+
+#topic_content{
+	padding-top: 60px;
+}
+
+
 
 @media only screen and (max-width: 600px) {
   
