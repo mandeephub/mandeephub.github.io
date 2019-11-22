@@ -1,4 +1,0 @@
-User-Agent: *
-Disallow: 
-
-Sitemap: https://www.xml-sitemaps.com/download/mandeephub.github.io-a2279a944/sitemap.xml?view=1
