@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TODO LIST</title>
+</head>
+<body>
+
+
+	<div id="app">
+		
+		<ul>
+			<li v-for="todo in items">{{todo}}</li>
+		</ul>
+
+
+		<input type="text" v-model="item">
+		<button @click="items.push(item); item=''">ADD ITEM</button>
+		<button @click="items.pop()">DELETE LAST ITEM IN LIST</button>
+		<button @click="items.shift()">DELETE FIRST ITEM IN LIST</button>
+	</div>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+	<script type="text/javascript">
+
+		new Vue({
+
+			el: '#app',
+
+			data:{
+
+				item:'',
+				items: []
+
+			}	
+
+
+		});
+
+
+	</script>
+
+</body>
+</html>
