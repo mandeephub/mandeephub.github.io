@@ -497,9 +497,9 @@ body{
         }
 
 
-        li:last-child {
+        /*li:last-child {
           display: none;
-        }
+        }*/
 
         .courses-outer-box{
           border: 1px solid #eee;
@@ -547,6 +547,10 @@ body{
 
         .heading_block h4{
           margin: 1.5rem 0px;
+        }
+
+        .index { 
+            border-right: 2px solid #ccc;
         }
         /* blog css*/
 
