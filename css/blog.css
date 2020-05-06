@@ -60,8 +60,8 @@
   }
 
   #open-btn{
-	position: absolute;
-    top: 20px;
+	position: fixed;
+    bottom: 20px;
     left: 20px;
     background: var(--primary);
     padding: 7px;
@@ -73,9 +73,9 @@
     color: rgb(255, 255, 255);
     display: block;
     opacity: 0.9;
-	box-shadow: 0 0 43px #ababab9e;
-	z-index: 99;
-	cursor: pointer;
+    box-shadow: 0 0 43px #ababab9e;
+    z-index: 1;
+    cursor: pointer;
   }
 
   #open-btn:hover{
