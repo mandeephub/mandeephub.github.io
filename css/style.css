@@ -541,13 +541,10 @@ body{
         /*blog css*/
         .content_block {
           padding: 1rem;
-          border: 2px solid #ccc;
           border-top: none;
         }   
 
-        .heading_block h4{
-          margin: 1.5rem 0px;
-        }
+        
 
         .index { 
             border-right: 2px solid #ccc;
