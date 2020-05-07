@@ -16,9 +16,9 @@
 
 }
 
-.mainblogarea{
+body{
 	background-image: url('/assets/bg001.png');
-	background-repeat: repeat-y;
+	background-repeat: no-repeat;
 	background-size: cover;
 	
 }
@@ -80,6 +80,22 @@
 
   #open-btn:hover{
 	  opacity: 1;
+  }
+
+  .sidebarfooter{
+	text-align: center;
+    color: #fff;
+    position: fixed;
+    width: 18%;
+    background: #3333FD;
+    padding: 10px;
+  }
+
+  .intro{
+	  height: 80vh;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
   }
   
   #main {
