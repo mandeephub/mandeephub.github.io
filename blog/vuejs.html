@@ -82,20 +82,20 @@
 							<div class="col-md-6">
 								<h1>Installing Vue js</h1>
 								<p class="text-justify">Vue js can be installed in various ways.</p>
-									<ul style="line-height: 40px;">
-										<li>Download it form their official website <a href='https://vuejs.org/' class="text-primary">Vuejs.org</a></li>
-										<ol>
-											<li><a href="https://vuejs.org/js/vue.js"  class="text-primary" target="blank">Development Version</a> |  <small class="text-secondary">With full warnings and debug mode</small></li>
-											<li><a href="https://vuejs.org/js/vue.min.js"  class="text-primary" target="blank">Production Version</a> |  <small class="text-secondary">Warnings stripped</small></li>
-										</ol> 
-
-										<li>Include it from CDN</li>
-										<ol>
-											<li><a href="https://cdnjs.com/libraries/vue" class="text-primary" target="blank">cdnjs</a></li>
-											<li><a href="https://www.jsdelivr.com/package/npm/vue" class="text-primary" target="blank">jsdeliver</a></li>
-										</ol>	
-									</ul> 
-									<p class="text-justify text-success">We will be using the cdn method in this tutorial.</p>
+								<ul style="line-height: 40px;">
+									<li>Download it form their official website <a href='https://vuejs.org/' class="text-primary">Vuejs.org</a></li>
+									<ol>
+										<li><a href="https://vuejs.org/js/vue.js"  class="text-primary" target="blank">Development Version</a> |  <small class="text-secondary">With full warnings and debug mode</small></li>
+										<li><a href="https://vuejs.org/js/vue.min.js"  class="text-primary" target="blank">Production Version</a> |  <small class="text-secondary">Warnings stripped</small></li>
+									</ol> 
+									
+									<li>Include it from CDN</li>
+									<ol>
+										<li><a href="https://cdnjs.com/libraries/vue" class="text-primary" target="blank">cdnjs</a></li>
+										<li><a href="https://www.jsdelivr.com/package/npm/vue" class="text-primary" target="blank">jsdeliver</a></li>
+									</ol>	
+								</ul> 
+								<p class="text-justify text-success">We will be using the cdn method in this tutorial.</p>
 							</div>
 							<div class="col-md-6">
 								<figure class="mt-5">
@@ -103,36 +103,73 @@
 								</figure>
 							</div>
 						</div>
+						<div class="row">
+							<div class="col-md-12 text-center">
+								<a href="/#helloworld" class="btn btn-primary dark_btn_custom">Getting started with Hello World</a>	
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>	
+				
+				<div class="wrapper">
+					<div class="container" id="helloworld">
+						<div class="row">
+							<div class="col-md-12">
+								<h1>Hello World Vue js</h1>
+								<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="js,result" data-user="mandeephub" data-slug-hash="vYNdzgM" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Hello World vue js">
+									<span>See the Pen <a href="https://codepen.io/mandeephub/pen/vYNdzgM">
+										Hello World vue js</a> by Mandeep Sharma (<a href="https://codepen.io/mandeephub">@mandeephub</a>)
+										on <a href="https://codepen.io">CodePen</a>.</span>
+									</p>
+									<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+									
+									<h1>Code Explanation</h1>
+									<p><b>HTML CODE</b></p>
+									<p>In HTML code we have specified id="app"</p>
+									<p>This is the place where our vue app gets started.</p>
+									<p>In h1 tag we have used {{ message }} : this is called <b>text interpolation</b> in this message will be replaced by javascript value.</p>
+									
+									<p><b>JS CODE</b></p>
+
+									<ol class="pl-3">
+										<li>we have our vue instance.</li>
+										<li>we have our element '#app'.</li>
+										<li>The we data object in which we have our variable message and its value 'Hello world' which is interploted in HTML.</li>
+									</ol>
+									
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>	
+			</div>
+			
+			
+			
+			
 		</div>
-		
-		
-		
-		
-		
-	</div>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131034372-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'UA-131034372-1');
-	</script>
-	<!--Start of Tawk.to Script-->
-	<script type="text/javascript">
-		var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-		(function(){
-			var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-			s1.async=true;
-			s1.src='https://embed.tawk.to/5cbb13f8c1fe2560f3ffbb22/default';
-			s1.charset='UTF-8';
-			s1.setAttribute('crossorigin','*');
-			s0.parentNode.insertBefore(s1,s0);
-		})();
-	</script>
-	<!--End of Tawk.to Script-->
-</body>
-</html>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131034372-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-131034372-1');
+		</script>
+		<!--Start of Tawk.to Script-->
+		<script type="text/javascript">
+			var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+			(function(){
+				var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+				s1.async=true;
+				s1.src='https://embed.tawk.to/5cbb13f8c1fe2560f3ffbb22/default';
+				s1.charset='UTF-8';
+				s1.setAttribute('crossorigin','*');
+				s0.parentNode.insertBefore(s1,s0);
+			})();
+		</script>
+		<!--End of Tawk.to Script-->
+	</body>
+	</html>
+	
