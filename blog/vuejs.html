@@ -80,6 +80,12 @@
 					<div class="container" id="installation">
 						<div class="row">
 							<div class="col-md-6">
+								<figure class="mt-5">
+									<img src="/assets/install.png" class="img-fluid">
+								</figure>
+							</div>
+							
+							<div class="col-md-6">
 								<h1>Installing Vue js</h1>
 								<p class="text-justify">Vue js can be installed in various ways.</p>
 								<ul style="line-height: 40px;">
@@ -96,11 +102,6 @@
 									</ol>	
 								</ul> 
 								<p class="text-justify text-success">We will be using the cdn method in this tutorial.</p>
-							</div>
-							<div class="col-md-6">
-								<figure class="mt-5">
-									<img src="/assets/whatisvue.png" class="img-fluid">
-								</figure>
 							</div>
 						</div>
 						<div class="row">
@@ -130,16 +131,40 @@
 									<p>In h1 tag we have used {{ message }} : this is called <b>text interpolation</b> in this message will be replaced by javascript value.</p>
 									
 									<p><b>JS CODE</b></p>
-
+									
 									<ol class="pl-3">
 										<li>we have our vue instance.</li>
 										<li>we have our element '#app'.</li>
 										<li>The we data object in which we have our variable message and its value 'Hello world' which is interploted in HTML.</li>
 									</ol>
-									
 								</div>
 							</div>
-							
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="wrapper">
+					<div class="container" id="helloworld">
+						<div class="row">
+							<div class="col-md-12">
+								<h1>Data Binding</h1>
+								<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="mandeephub" data-slug-hash="pojaGyV" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Edit hello world">
+									<span>See the Pen <a href="https://codepen.io/mandeephub/pen/pojaGyV">
+									Edit hello world</a> by Mandeep Sharma (<a href="https://codepen.io/mandeephub">@mandeephub</a>)
+									on <a href="https://codepen.io">CodePen</a>.</span>
+								  </p>
+								  <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+									<h1>Code Explanation</h1>
+									<p><b>HTML CODE</b></p>
+									<p>In HTML code we <b>v-model</b> directive which is set to message the variable we have in <b>p tag</b> they both are interconnected, which means if we change the value in input it will be reflected in p tag. </p>
+									
+									<p><b>JS CODE</b></p>
+									
+									<ol class="pl-3">
+									</ol>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>	
