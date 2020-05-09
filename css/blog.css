@@ -27,7 +27,7 @@ body{
 
 .sidenav {
 	height: 100%;
-	width: 0;
+	width: 0px;
 	position: fixed;
 	z-index: 1;
 	top: 0;
@@ -41,7 +41,7 @@ body{
   .sidenav a {
 	padding: 8px 8px 8px 32px;
 	text-decoration: none;
-	font-size: 25px;
+	font-size: 20px;
 	color: #fff;
 	display: block;
 	transition: 0.3s;
