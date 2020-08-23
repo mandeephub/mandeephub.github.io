@@ -375,8 +375,8 @@ body{
         .dark_btn_custom:hover {
           background-color: #3333ff;
           box-shadow: 10px 7px 17px #ccc;
-          transition: all 0.2 s;
-          //margin-top: -1px;
+          transition: all 0.2s;
+          transform: translate3d(0px, -3px, 0px);
         }
         .light_btn_custom {
           color: #000;
@@ -391,7 +391,7 @@ body{
           background-color: #efefef;
           box-shadow: 10px 7px 17px #ccc;
           transition: all 0.2s;
-          //margin-top: -1px;
+          transform: translate3d(0px, -3px, 0px);
         }
 
         .projects{
