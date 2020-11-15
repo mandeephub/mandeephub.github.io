@@ -346,7 +346,7 @@ body{
             color: #000;
           }
           .header {
-            padding: 1% 0;
+            padding: 0 0;
             border-bottom: 1px solid #eee;
             position: fixed;
             width: 100%;
