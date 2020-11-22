@@ -551,6 +551,25 @@ body{
         }
         /* blog css*/
 
+
+        .projectsbox div{
+          filter: grayscale(1);
+          transition: ease 0.5s;
+        }
+
+        .projectsbox div:hover{
+          filter: grayscale(0);
+          transition: ease 0.5s;
+          
+          transform: translateY(10px);
+    transform: scale(1.03); 
+        }
+
+
+
+
+        /* medeia css*/
+
         @media only screen and (max-width: 600px) {
           .img_about {
             margin-top: 30px;
