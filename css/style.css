@@ -499,89 +499,135 @@ body{
 
         /*li:last-child {
           display: none;
-        }*/
+          }*/
 
-        .courses-outer-box{
-          border: 1px solid #eee;
-          padding: 30px 30px 10px 30px;
-          border-radius: 5px;
-          transition: 0.2s ease;
-        }
+          .courses-outer-box{
+            border: 1px solid #eee;
+            padding: 30px 30px 10px 30px;
+            border-radius: 5px;
+            transition: 0.2s ease;
+          }
 
 
-        .courses-outer-box:hover {
-          border: 1px solid #eee;
-          padding: 30px 30px 10px 30px;
-          border-radius: 5px;
-          box-shadow: 0 0 43px #eee;
-          transition: 0.2s ease;
-          transform: scale(1.02);
-        }
+          .courses-outer-box:hover {
+            border: 1px solid #eee;
+            padding: 30px 30px 10px 30px;
+            border-radius: 5px;
+            box-shadow: 0 0 43px #eee;
+            transition: 0.2s ease;
+            transform: scale(1.02);
+          }
 
-        .courses-outer-box_big{
-          border: 1px solid #eee;
-          padding: 27px 30px 0px 30px;
-          border-radius: 5px;
-          transition: 0.5s ease;
-        }
-        .courses-outer-box_big:hover {
-          border: 1px solid #eee;
-          padding: 27px 30px 0px 30px;
-          border-radius: 5px;
-          box-shadow: 0 0 43px #eee;
-          transition: 0.5s ease;
-        }
+          .courses-outer-box_big{
+            border: 1px solid #eee;
+            padding: 27px 30px 0px 30px;
+            border-radius: 5px;
+            transition: 0.5s ease;
+          }
+          .courses-outer-box_big:hover {
+            border: 1px solid #eee;
+            padding: 27px 30px 0px 30px;
+            border-radius: 5px;
+            box-shadow: 0 0 43px #eee;
+            transition: 0.5s ease;
+          }
 
-        #Pr8eQVh-1555772380046 {
+          #Pr8eQVh-1555772380046 {
 
-          display: none !important;
+            display: none !important;
 
-        }
+          }
 
-        /*blog css*/
-        .content_block {
-          padding: 1rem;
-          border-top: none;
-        }   
+          /*blog css*/
+          .content_block {
+            padding: 1rem;
+            border-top: none;
+          }   
 
-        
 
-        .index { 
+
+          .index { 
             border-right: 2px solid #ccc;
-        }
-        /* blog css*/
+          }
+          /* blog css*/
 
 
-        .projectsbox div{
-          filter: grayscale(1);
-          transition: ease 0.5s;
-        }
-
-        .projectsbox div:hover{
-          filter: grayscale(0);
-          transition: ease 0.5s;
-          
-          transform: translateY(10px);
-    transform: scale(1.03); 
-        }
-
-
-
-
-        /* medeia css*/
-
-        @media only screen and (max-width: 600px) {
-          .img_about {
-            margin-top: 30px;
+          .projectsbox div{
+            filter: grayscale(1);
+            transition: ease 0.5s;
           }
 
-          #boxed{
-            margin-top: 25px;
-          }
-        }
+          .projectsbox div:hover{
+            filter: grayscale(0);
+            transition: ease 0.5s;
 
-        @media only screen and (max-width: 600px) {
-          .wrapper {
-            padding: 70px 0px 40px 0px;
+            transform: translateY(10px);
+            transform: scale(1.03); 
           }
-        }
+
+
+
+          /*vlog page */
+
+          .vlog-intro{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .vlog-container{
+            height: 100vh;
+          }
+
+          .vlog-container-box{
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+
+          }
+
+          .vlog-heading{
+            font-size: 5rem;
+            font-weight: 800;
+            margin-top: auto;
+
+          }
+
+          .vlog-text-clr{
+            color: #3233FD;
+          }
+
+
+
+          /* vlog page*/
+
+
+          /* medeia css*/
+
+          @media only screen and (max-width: 600px) {
+            .img_about {
+              margin-top: 30px;
+            }
+
+            #boxed{
+              margin-top: 25px;
+            }
+          }
+
+          @media only screen and (max-width: 600px) {
+            .wrapper {
+              padding: 70px 0px 40px 0px;
+            }
+
+            .vlog-intro{
+              
+            flex-wrap: wrap;
+              text-align: center;
+              margin-top: -20px;
+            }
+
+            .vlog-heading{
+              font-size: 3.5rem;
+              margin-top: 10px;
+            }
+          }
