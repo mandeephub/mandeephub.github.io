@@ -17,12 +17,6 @@ h5{
 	align-items: center;
 }
 
-.button-links{
-	//justify-content: center;
-	display: flex;
-	flex-wrap: wrap;
-}
-
 .button-links a{
 	border: 2px solid #fff;
     padding: 2% 5%;
@@ -43,7 +37,6 @@ h5{
 
 
 .button-links a i{
-
 	margin-right: 10px;
 }
 
