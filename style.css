@@ -17,6 +17,10 @@ h5{
 	align-items: center;
 }
 
+.button-links{
+    text-align: left;
+}
+
 .button-links a{
 	border: 2px solid #fff;
     padding: 2% 5%;
