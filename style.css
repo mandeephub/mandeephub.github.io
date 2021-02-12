@@ -48,6 +48,34 @@ h5{
 	width: 30% !important;
 }
 
+/*subpages - projects*/
+
+
+.back-to-home{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.back-to-home a i{
+    margin-right: 5px;
+}
+
+
+.back-to-home a{
+    color: #000;
+    text-decoration: none;
+}
+
+.sub-header{
+    background: #000;
+    color: #fff;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+
+}
+
 
 
 
