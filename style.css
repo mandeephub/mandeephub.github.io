@@ -51,10 +51,10 @@ h5{
 
 
 .sub-links a{
-     color: #3B3B3B;
-     text-decoration: none;
-     font-size: 1.5rem;
-     font-weight: 500;   
+ color: #3B3B3B;
+ text-decoration: none;
+ font-size: 1.5rem;
+ font-weight: 500;   
 }
 
 /*subpages - projects*/
@@ -86,3 +86,8 @@ h5{
 
 
 
+@media only screen and (max-width: 600px) {
+  h1,h2,h3,h4,h5,h6,p{
+    letter-spacing: -1px;
+}
+}
