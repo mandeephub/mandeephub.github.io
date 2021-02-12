@@ -48,8 +48,16 @@ h5{
 	width: 30% !important;
 }
 
-/*subpages - projects*/
 
+
+.sub-links a{
+     color: #3B3B3B;
+     text-decoration: none;
+     font-size: 1.5rem;
+     font-weight: 500;   
+}
+
+/*subpages - projects*/
 
 .back-to-home{
     display: flex;
@@ -75,7 +83,6 @@ h5{
     align-items: center;
 
 }
-
 
 
 
