@@ -11,6 +11,8 @@ function changetheme(){
 
 		document.getElementById("heading").style.color = "#fff";
 
+		document.getElementById("project").style.color = "#fff";
+
 		document.getElementById("subheading",).style.color = "#fff";
 
 		
@@ -28,6 +30,8 @@ function changetheme(){
 		document.getElementById("subheading",).style.color = "#000";
 		
 		document.getElementById("background").style.background = "#fff";
+
+		document.getElementById("project").style.color = "#000";
 
 		document.getElementById("background").style.transition = "all 0.5s";
 		

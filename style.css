@@ -83,10 +83,20 @@ h5{
 
 
 .sub-links a{
- color: var(--gray);;
  text-decoration: none;
  font-size: 1.5rem;
  font-weight: 500;   
+}
+
+
+.form-check-input:checked {
+    background-color: #000 !important;
+    border-color: #000 !important;
+}
+
+
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.25rem rgb(0 0 0 / 25%) !important;
 }
 
 /*subpages - projects*/
