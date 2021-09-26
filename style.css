@@ -147,6 +147,10 @@ h5{
     position: relative;
 }
 
+a{
+    color: #000;
+    text-decoration: none;
+}
 
 
 /* media css */
