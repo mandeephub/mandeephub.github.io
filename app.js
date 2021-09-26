@@ -44,3 +44,5 @@ function changetheme(){
 	}
 
 }
+
+AOS.init();

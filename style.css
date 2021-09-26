@@ -85,9 +85,9 @@ h5{
 
 
 .sub-links a{
- text-decoration: none;
- font-size: 1.5rem;
- font-weight: 500;   
+   text-decoration: none;
+   font-size: 1.5rem;
+   font-weight: 500;   
 }
 
 
@@ -133,16 +133,6 @@ h5{
     height: 1.5em !important;
 }
 
-
-
-@media only screen and (max-width: 600px) {
-  h1,h2,h3,h4,h5,h6,p{
-    letter-spacing: -1px;
-}
-}
-
-
-
 #particles-js {
   position: absolute;
   width: 100%;
@@ -156,6 +146,35 @@ h5{
 .main-area{
     position: relative;
 }
+
+
+
+/* media css */
+
+@media only screen and (max-width: 600px) {
+  h1,h2,h3,h4,h5,h6,p{
+    letter-spacing: -1px;
+}
+
+.button-links a {
+    display: block;
+    width: 40%;
+    margin: 15px 0px;
+    text-align: center;
+}
+
+.button-links {
+    margin-top: -30px;
+}
+
+
+}
+
+
+
+
+
+
 
 
 
