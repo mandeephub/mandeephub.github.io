@@ -147,7 +147,7 @@ h5{
     position: relative;
 }
 
-a{
+.projects a{
     color: #000 !important;
     text-decoration: none !important;
 }
