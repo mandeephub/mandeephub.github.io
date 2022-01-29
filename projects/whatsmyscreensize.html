@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131034372-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        
+        gtag('config', 'UA-131034372-1');
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    
+    <title>Mandeep Sharma | Web Developer | Projects</title>
+    <link rel="stylesheet" type="text/css" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/fontawesome/css/all.css">
+    <link rel="icon" href="../assets/images/profile.png" type="../image/gif" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="../style.css">	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+    
+    .main_section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    .main_heading, .sub_heading{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        font-size: 45px;
+        color: #333333;
+        text-align: center;
+    }
+    
+    .sub_heading{
+        font-size: 35px;
+        color: #333333;
+        
+    }
+    
+    .sub_heading_mask{
+        font-weight: 00;
+        font-size: 25px;
+    }
+    
+    @media only screen and (max-width: 767px) {
+        .main_heading,.sub_heading{
+            font-size: 28px;
+        }
+        .sub_heading_mask{
+            font-size: 22px;
+        }
+    }
+    </style>
+    
+    <body class="projects">
+        <div class="main_section">
+            <h1 class="main_heading">Your screen resolution</h1>
+            <h2 class="sub_heading"><span id="width"></span> <span>x</span> <span id="height"></span></h2>
+            <h2 class="sub_heading" ></h2>
+            
+            
+            <h2 class="sub_heading_mask" ><span id="full_width"></span></h2>
+            <h2 class="sub_heading_mask"><span id="full_height"></span></h2>
+            
+        </div>
+        <script>
+            document.getElementById("height").innerHTML = screen.height;
+            document.getElementById("width").innerHTML = screen.width;
+            
+            document.getElementById("full_height").innerHTML ='Screen height : ' + screen.height + ' Pixels';
+            document.getElementById("full_width").innerHTML = 'Screen Width : ' + screen.width + ' Pixels';
+        </script>
+    </body>
+    </html>
